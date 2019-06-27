@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BrowsBrowser
+</name>
+</assembly>
+<members>
+<member name="T:BrowsBrowser.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.backbuttonidle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.backbuttoninteract">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.backbuttontarget">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.forwardbuttonidle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.forwardbuttoninteract">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.forwardbuttontarget">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.gradientpop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.loading">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.loadingicon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.loadreloadidle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.loadreloadinteract">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.loadreloadtarget">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.newtabidle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.newtabinteract">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.newtabtarget">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.reloadbuttonidle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.reloadbuttoninteract">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BrowsBrowser.My.Resources.Resources.reloadbuttontarget">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

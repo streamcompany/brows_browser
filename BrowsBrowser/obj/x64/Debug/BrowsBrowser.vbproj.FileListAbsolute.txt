@@ -1,0 +1,15 @@
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\bin\x64\Debug\BrowsBrowser.exe.config
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\bin\x64\Debug\BrowsBrowser.exe
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\bin\x64\Debug\BrowsBrowser.pdb
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\bin\x64\Debug\BrowsBrowser.xml
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.Form1.resources
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.Resources.resources
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.vbproj.GenerateResource.cache
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.vbproj.CoreCompileInputs.cache
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.exe
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.xml
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.pdb
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.settingsform.resources
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.Form2.resources
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.loading.resources
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.vbprojAssemblyReference.cache
