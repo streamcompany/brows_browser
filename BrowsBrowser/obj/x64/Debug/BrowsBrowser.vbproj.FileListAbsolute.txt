@@ -12,4 +12,4 @@ C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.
 C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.settingsform.resources
 C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.Form2.resources
 C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.loading.resources
-C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.vbprojAssemblyReference.cache
+C:\Users\Ejaz\source\repos\BrowsBrowser\BrowsBrowser\obj\x64\Debug\BrowsBrowser.vbprojResolveAssemblyReference.cache

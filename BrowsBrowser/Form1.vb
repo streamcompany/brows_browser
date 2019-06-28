@@ -1,9 +1,6 @@
-﻿Imports CefSharp.WinForms
-Imports CefSharp
-Imports System.IO
+﻿Imports System.IO
 Imports System.Text
 Imports System
-Imports GlobalVariables
 
 Public Class Form1
     Private Sub back_button_Click(sender As Object, e As EventArgs) Handles back_button.Click
@@ -28,7 +25,13 @@ Public Class Form1
             If TextBox1.Text.Contains(".") And Not TextBox1.Text.Contains(" ") Or TextBox1.Text.Contains(":") Then
                 Sandboxed_process1.Navigate(TextBox1.Text)
             Else
-                Sandboxed_process1.Navigate("https://streamcompany.github.io/stream/gbr?q=" + TextBox1.Text)
+                Sandboxed_process1.Navigate(File.ReadAllText("C:\Documents and Settings\All Users\Documents\STREAM\Brows\Settings\searchengine.txt") + TextBox1.Text)
+            End If
+            If TextBox1.Text = "brows:settings" Then
+                Dim sForm As settingsform
+                sForm = New settingsform()
+                sForm.Show()
+                sForm = Nothing
             End If
             webProgress.Show()
             webProgress.Value = 5
@@ -53,12 +56,6 @@ Public Class Form1
             back_button.Image = BrowsBrowser.My.Resources.backbuttontarget
         End If
         Me.Text = TextBox1.Text + " - Brows Browser"
-        If TextBox1.Text = "brows:settings" Then
-            Dim sForm As settingsform
-            sForm = New settingsform()
-            sForm.Show()
-            sForm = Nothing
-        End If
         webProgress.Show()
         webProgress.Value = 60
         webProgress.PerformStep()
@@ -145,12 +142,22 @@ Public Class Form1
         oForm = New Form2()
         oForm.Show()
         oForm = Nothing
-        If Directory.Exists("C:\Documents and Settings\All Users\Documents\STREAM\Brows") Then
+        If Not Directory.Exists("C:\Documents and Settings\All Users\Documents\STREAM\Brows") Then
             My.Computer.FileSystem.CreateDirectory(
   "C:\Documents and Settings\All Users\Documents\STREAM\Brows")
             My.Computer.FileSystem.CreateDirectory(
 "C:\Documents and Settings\All Users\Documents\STREAM\Brows\Sessions")
+            My.Computer.FileSystem.CreateDirectory(
+"C:\Documents and Settings\All Users\Documents\STREAM\Brows\Settings")
+            Dim Settingsfile As System.IO.StreamWriter
+            Settingsfile = My.Computer.FileSystem.OpenTextFileWriter("C:/Documents and Settings/All Users/Documents/STREAM/Brows/Settings/searchengine.txt", True)
+            Settingsfile.WriteLine("https://streamcompany.github.io/search/gbr?q=")
+            Settingsfile = My.Computer.FileSystem.OpenTextFileWriter("C:/Documents and Settings/All Users/Documents/STREAM/Brows/Settings/startup.txt", True)
+            Settingsfile.WriteLine("https://streamcompany.github.io/")
+            Settingsfile.Close()
         End If
+        Sandboxed_process1.Stop()
+        Sandboxed_process1.Navigate(File.ReadAllText("C:\Documents and Settings\All Users\Documents\STREAM\Brows\Settings\startup.txt"))
     End Sub
 
     Private Sub newtab_button_Click(sender As Object, e As EventArgs) Handles newtab_button.Click

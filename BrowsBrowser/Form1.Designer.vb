@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.reload_button = New System.Windows.Forms.PictureBox()
@@ -33,6 +34,7 @@ Partial Class Form1
         Me.Sandboxed_process1 = New System.Windows.Forms.WebBrowser()
         Me.status_bar = New System.Windows.Forms.Panel()
         Me.Status = New System.Windows.Forms.Label()
+        Me.adrenaline = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.Panel1.SuspendLayout()
         CType(Me.reload_button, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.newtab_button, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -157,6 +159,12 @@ Partial Class Form1
         Me.Status.TabIndex = 0
         Me.Status.Text = "Label1"
         '
+        'adrenaline
+        '
+        Me.adrenaline.Icon = CType(resources.GetObject("adrenaline.Icon"), System.Drawing.Icon)
+        Me.adrenaline.Text = "Adrenaline is running!"
+        Me.adrenaline.Visible = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -190,4 +198,5 @@ Partial Class Form1
     Friend WithEvents status_bar As Panel
     Friend WithEvents Status As Label
     Friend WithEvents reload_button As PictureBox
+    Friend WithEvents adrenaline As NotifyIcon
 End Class
